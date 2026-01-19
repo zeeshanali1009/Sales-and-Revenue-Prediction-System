@@ -1,0 +1,29 @@
+name: CI - Docker Build & Smoke Test
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+
+    - name: Build Docker image
+      run: |
+        docker build -t sales-revenue-app .
+
+    - name: Smoke test (Streamlit import)
+      run: |
+        docker run --rm sales-revenue-app python - <<EOF
+        import app
+        print("Smoke test passed")
+        EOF
