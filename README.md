@@ -44,3 +44,6 @@ Outcome:
 The system predicts future sales based on historical trends, helping businesses make informed decisions.
 The predictions can be accessed via a simple Streamlit web app, making it easy for users with no technical background.
 Model can be retrained with new data to maintain accuracy over time.
+
+https://sales-and-revenue-prediction-system-4janl54dpy8hyz9mwkhyjr.streamlit.app/
+
