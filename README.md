@@ -1,10 +1,11 @@
 
-🧾 Sales and Revenue Prediction System
-End-to-End Machine Learning Project | Deployed Application
+# 🧾 Sales and Revenue Prediction System
+
+**End-to-End Machine Learning Project | Deployed Application**
 
 [![CI - Docker Build & Smoke Test](https://github.com/zeeshanali1009/Sales-and-Revenue-Prediction-System/actions/workflows/ci.yml/badge.svg)](https://github.com/zeeshanali1009/Sales-and-Revenue-Prediction-System/actions/workflows/ci.yml)
 
-🔗 Live Application:
+🔗 **Live Application:**
 [https://sales-and-revenue-prediction-system-4janl54dpy8hyz9mwkhyjr.streamlit.app/](https://sales-and-revenue-prediction-system-4janl54dpy8hyz9mwkhyjr.streamlit.app/)
 
 ---
@@ -188,20 +189,4 @@ This project demonstrates:
 🔗 **Live App:**
 [https://sales-and-revenue-prediction-system-4janl54dpy8hyz9mwkhyjr.streamlit.app/](https://sales-and-revenue-prediction-system-4janl54dpy8hyz9mwkhyjr.streamlit.app/)
 
----
 
-### 🔥 Next (Optional Enhancements)
-
-* Model retraining with time-series forecasting
-* Advanced business dashboards
-* Cloud deployment with managed infrastructure
-
----
-
-If you want, next we can:
-
-* 🔹 Add **Docker versioning (v1.0.0 release)**
-* 🔹 Prepare a **resume bullet specifically for this project**
-* 🔹 Start your **next forecasting project (Time Series / LSTM)**
-
-Just tell me 👍
